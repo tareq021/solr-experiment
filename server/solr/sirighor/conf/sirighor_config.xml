@@ -1,0 +1,18 @@
+<dataConfig>
+  <dataSource type="JdbcDataSource" 
+              driver="org.postgresql.Driver"
+              url="jdbc:postgresql://localhost:5432/BookInventory" 
+              user="rokomari" 
+              password="rokomari"/>
+  <document>
+    <entity name="book" 
+            query="select * from book">
+
+      <entity name="publisher"
+              query="select name as publisher_name, phone as publisher_phone from publisher where id='${book.publisher_id}'"
+              parentDeltaQuery="select id from book where publisher_id='${publisher.id}'">
+      </entity>
+      
+    </entity>    
+  </document>
+</dataConfig>

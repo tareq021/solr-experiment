@@ -1,0 +1,81 @@
+2017-08-21 12:07:46.484 INFO  (main) [   ] o.e.j.s.Server jetty-9.3.14.v20161028
+2017-08-21 12:07:46.701 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter  ___      _       Welcome to Apache Solr™ version 6.6.0
+2017-08-21 12:07:46.701 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter / __| ___| |_ _   Starting in standalone mode on port 8983
+2017-08-21 12:07:46.701 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter \__ \/ _ \ | '_|  Install dir: /home/tareq/rokomari-solr
+2017-08-21 12:07:46.712 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter |___/\___/_|_|    Start time: 2017-08-21T12:07:46.702Z
+2017-08-21 12:07:46.712 INFO  (main) [   ] o.a.s.s.StartupLoggingUtils Property solr.log.muteconsole given. Muting ConsoleAppender named CONSOLE
+2017-08-21 12:07:46.722 INFO  (main) [   ] o.a.s.c.SolrResourceLoader Using system property solr.solr.home: /home/tareq/rokomari-solr/server/solr
+2017-08-21 12:07:46.725 INFO  (main) [   ] o.a.s.c.SolrXmlConfig Loading container configuration from /home/tareq/rokomari-solr/server/solr/solr.xml
+2017-08-21 12:07:46.938 INFO  (main) [   ] o.a.s.u.UpdateShardHandler Creating UpdateShardHandler HTTP client with params: socketTimeout=600000&connTimeout=60000&retry=true
+2017-08-21 12:07:47.050 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Found 2 core definitions underneath /home/tareq/rokomari-solr/server/solr
+2017-08-21 12:07:47.051 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Cores are: [sirighor, rok-fahad]
+2017-08-21 12:07:47.089 INFO  (main) [   ] o.e.j.s.Server Started @916ms
+2017-08-21 12:07:47.106 WARN  (coreLoadExecutor-6-thread-2) [   x:rok-fahad] o.a.s.c.SolrConfig Couldn't add files from /home/tareq/rokomari-solr/server/solr/rok-fahad/../../../contrib/dataimporthandler/lib filtered by .*\.jar to classpath: /home/tareq/rokomari-solr/server/solr/rok-fahad/../../../contrib/dataimporthandler/lib
+2017-08-21 12:07:47.106 WARN  (coreLoadExecutor-6-thread-1) [   x:sirighor] o.a.s.c.SolrConfig Couldn't add files from /home/tareq/rokomari-solr/server/solr/sirighor/../../../contrib/dataimporthandler/lib filtered by .*\.jar to classpath: /home/tareq/rokomari-solr/server/solr/sirighor/../../../contrib/dataimporthandler/lib
+2017-08-21 12:07:47.109 INFO  (coreLoadExecutor-6-thread-1) [   x:sirighor] o.a.s.c.SolrResourceLoader [sirighor] Added 52 libs to classloader, from paths: [/home/tareq/rokomari-solr/contrib/clustering/lib, /home/tareq/rokomari-solr/contrib/extraction/lib, /home/tareq/rokomari-solr/contrib/langid/lib, /home/tareq/rokomari-solr/contrib/velocity/lib, /home/tareq/rokomari-solr/dist]
+2017-08-21 12:07:47.109 INFO  (coreLoadExecutor-6-thread-2) [   x:rok-fahad] o.a.s.c.SolrResourceLoader [rok-fahad] Added 52 libs to classloader, from paths: [/home/tareq/rokomari-solr/contrib/clustering/lib, /home/tareq/rokomari-solr/contrib/extraction/lib, /home/tareq/rokomari-solr/contrib/langid/lib, /home/tareq/rokomari-solr/contrib/velocity/lib, /home/tareq/rokomari-solr/dist]
+2017-08-21 12:07:47.222 INFO  (coreLoadExecutor-6-thread-1) [   x:sirighor] o.a.s.c.SolrConfig Using Lucene MatchVersion: 6.6.0
+2017-08-21 12:07:47.225 INFO  (coreLoadExecutor-6-thread-2) [   x:rok-fahad] o.a.s.c.SolrConfig Using Lucene MatchVersion: 6.6.0
+2017-08-21 12:07:47.386 INFO  (coreLoadExecutor-6-thread-2) [   x:rok-fahad] o.a.s.s.IndexSchema [rok-fahad] Schema name=example-data-driven-schema
+2017-08-21 12:07:47.394 INFO  (coreLoadExecutor-6-thread-1) [   x:sirighor] o.a.s.s.IndexSchema [sirighor] Schema name=example-data-driven-schema
+2017-08-21 12:07:47.803 INFO  (coreLoadExecutor-6-thread-1) [   x:sirighor] o.a.s.s.IndexSchema Loaded schema example-data-driven-schema/1.6 with uniqueid field id
+2017-08-21 12:07:47.803 INFO  (coreLoadExecutor-6-thread-2) [   x:rok-fahad] o.a.s.s.IndexSchema Loaded schema example-data-driven-schema/1.6 with uniqueid field id
+2017-08-21 12:07:47.826 INFO  (coreLoadExecutor-6-thread-2) [   x:rok-fahad] o.a.s.c.CoreContainer Creating SolrCore 'rok-fahad' using configuration from instancedir /home/tareq/rokomari-solr/server/solr/rok-fahad, trusted=true
+2017-08-21 12:07:47.844 INFO  (coreLoadExecutor-6-thread-1) [   x:sirighor] o.a.s.c.CoreContainer Creating SolrCore 'sirighor' using configuration from instancedir /home/tareq/rokomari-solr/server/solr/sirighor, trusted=true
+2017-08-21 12:07:47.850 INFO  (coreLoadExecutor-6-thread-1) [   x:sirighor] o.a.s.c.SolrCore solr.RecoveryStrategy.Builder
+2017-08-21 12:07:47.850 INFO  (coreLoadExecutor-6-thread-2) [   x:rok-fahad] o.a.s.c.SolrCore solr.RecoveryStrategy.Builder
+2017-08-21 12:07:47.854 INFO  (coreLoadExecutor-6-thread-2) [   x:rok-fahad] o.a.s.c.SolrCore [[rok-fahad] ] Opening new SolrCore at [/home/tareq/rokomari-solr/server/solr/rok-fahad], dataDir=[/home/tareq/rokomari-solr/server/solr/rok-fahad/data/]
+2017-08-21 12:07:47.854 INFO  (coreLoadExecutor-6-thread-1) [   x:sirighor] o.a.s.c.SolrCore [[sirighor] ] Opening new SolrCore at [/home/tareq/rokomari-solr/server/solr/sirighor], dataDir=[/home/tareq/rokomari-solr/server/solr/sirighor/data/]
+2017-08-21 12:07:47.886 INFO  (coreLoadExecutor-6-thread-2) [   x:rok-fahad] o.a.s.r.XSLTResponseWriter xsltCacheLifetimeSeconds=5
+2017-08-21 12:07:47.886 INFO  (coreLoadExecutor-6-thread-1) [   x:sirighor] o.a.s.r.XSLTResponseWriter xsltCacheLifetimeSeconds=5
+2017-08-21 12:07:48.106 INFO  (coreLoadExecutor-6-thread-1) [   x:sirighor] o.a.s.u.UpdateHandler Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+2017-08-21 12:07:48.106 INFO  (coreLoadExecutor-6-thread-1) [   x:sirighor] o.a.s.u.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+2017-08-21 12:07:48.107 INFO  (coreLoadExecutor-6-thread-2) [   x:rok-fahad] o.a.s.u.UpdateHandler Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+2017-08-21 12:07:48.108 INFO  (coreLoadExecutor-6-thread-2) [   x:rok-fahad] o.a.s.u.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+2017-08-21 12:07:48.122 INFO  (coreLoadExecutor-6-thread-2) [   x:rok-fahad] o.a.s.u.CommitTracker Hard AutoCommit: if uncommited for 15000ms; 
+2017-08-21 12:07:48.122 INFO  (coreLoadExecutor-6-thread-2) [   x:rok-fahad] o.a.s.u.CommitTracker Soft AutoCommit: disabled
+2017-08-21 12:07:48.124 INFO  (coreLoadExecutor-6-thread-1) [   x:sirighor] o.a.s.u.CommitTracker Hard AutoCommit: if uncommited for 15000ms; 
+2017-08-21 12:07:48.124 INFO  (coreLoadExecutor-6-thread-1) [   x:sirighor] o.a.s.u.CommitTracker Soft AutoCommit: disabled
+2017-08-21 12:07:48.184 INFO  (coreLoadExecutor-6-thread-1) [   x:sirighor] o.a.s.s.SolrIndexSearcher Opening [Searcher@3317134c[sirighor] main]
+2017-08-21 12:07:48.184 INFO  (coreLoadExecutor-6-thread-2) [   x:rok-fahad] o.a.s.s.SolrIndexSearcher Opening [Searcher@1094194d[rok-fahad] main]
+2017-08-21 12:07:48.191 INFO  (coreLoadExecutor-6-thread-1) [   x:sirighor] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: /home/tareq/rokomari-solr/server/solr/sirighor/conf
+2017-08-21 12:07:48.192 INFO  (coreLoadExecutor-6-thread-2) [   x:rok-fahad] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: /home/tareq/rokomari-solr/server/solr/rok-fahad/conf
+2017-08-21 12:07:48.202 INFO  (coreLoadExecutor-6-thread-2) [   x:rok-fahad] o.a.s.h.c.SpellCheckComponent Initializing spell checkers
+2017-08-21 12:07:48.202 INFO  (coreLoadExecutor-6-thread-1) [   x:sirighor] o.a.s.h.c.SpellCheckComponent Initializing spell checkers
+2017-08-21 12:07:48.206 INFO  (coreLoadExecutor-6-thread-2) [   x:rok-fahad] o.a.s.s.DirectSolrSpellChecker init: {name=default,field=_text_,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+2017-08-21 12:07:48.206 INFO  (coreLoadExecutor-6-thread-1) [   x:sirighor] o.a.s.s.DirectSolrSpellChecker init: {name=default,field=_text_,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+2017-08-21 12:07:48.209 INFO  (coreLoadExecutor-6-thread-1) [   x:sirighor] o.a.s.h.c.QueryElevationComponent Loading QueryElevation from: /home/tareq/rokomari-solr/server/solr/sirighor/conf/elevate.xml
+2017-08-21 12:07:48.209 INFO  (coreLoadExecutor-6-thread-2) [   x:rok-fahad] o.a.s.h.c.QueryElevationComponent Loading QueryElevation from: /home/tareq/rokomari-solr/server/solr/rok-fahad/conf/elevate.xml
+2017-08-21 12:07:48.217 INFO  (coreLoadExecutor-6-thread-1) [   x:sirighor] o.a.s.h.ReplicationHandler Commits will be reserved for  10000
+2017-08-21 12:07:48.219 INFO  (coreLoadExecutor-6-thread-2) [   x:rok-fahad] o.a.s.h.ReplicationHandler Commits will be reserved for  10000
+2017-08-21 12:07:48.250 INFO  (searcherExecutor-8-thread-1-processing-x:rok-fahad) [   x:rok-fahad] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@1094194d[rok-fahad] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_f(6.6.0):C104627) Uninverting(_g(6.6.0):C10460) Uninverting(_h(6.6.0):C28694)))}
+2017-08-21 12:07:48.250 INFO  (searcherExecutor-8-thread-1-processing-x:rok-fahad) [   x:rok-fahad] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2017-08-21 12:07:48.250 INFO  (searcherExecutor-8-thread-1-processing-x:rok-fahad) [   x:rok-fahad] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: default
+2017-08-21 12:07:48.251 INFO  (searcherExecutor-8-thread-1-processing-x:rok-fahad) [   x:rok-fahad] o.a.s.c.SolrCore [rok-fahad] Registered new searcher Searcher@1094194d[rok-fahad] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_f(6.6.0):C104627) Uninverting(_g(6.6.0):C10460) Uninverting(_h(6.6.0):C28694)))}
+2017-08-21 12:07:48.255 INFO  (searcherExecutor-7-thread-1-processing-x:sirighor) [   x:sirighor] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@3317134c[sirighor] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_3k(6.6.0):C23)))}
+2017-08-21 12:07:48.255 INFO  (searcherExecutor-7-thread-1-processing-x:sirighor) [   x:sirighor] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2017-08-21 12:07:48.255 INFO  (searcherExecutor-7-thread-1-processing-x:sirighor) [   x:sirighor] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: default
+2017-08-21 12:07:48.256 INFO  (searcherExecutor-7-thread-1-processing-x:sirighor) [   x:sirighor] o.a.s.c.SolrCore [sirighor] Registered new searcher Searcher@3317134c[sirighor] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_3k(6.6.0):C23)))}
+2017-08-21 12:07:48.488 INFO  (qtp581374081-14) [   x:rok-fahad] o.a.s.c.S.Request [rok-fahad]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1503301931080} status=0 QTime=6
+2017-08-21 12:07:50.396 INFO  (qtp581374081-17) [   x:rok-fahad] o.a.s.c.S.Request [rok-fahad]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1503301931080} status=0 QTime=0
+2017-08-21 12:07:52.251 INFO  (qtp581374081-18) [   x:rok-fahad] o.a.s.c.S.Request [rok-fahad]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1503301931080} status=0 QTime=0
+2017-08-21 12:07:53.850 INFO  (qtp581374081-18) [   x:rok-fahad] o.a.s.c.S.Request [rok-fahad]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1503301931080} status=0 QTime=0
+2017-08-21 12:07:55.597 INFO  (qtp581374081-16) [   ] o.a.s.c.TransientSolrCoreCacheDefault Allocating transient cache for 2147483647 transient cores
+2017-08-21 12:07:55.901 INFO  (qtp581374081-13) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1503317275794} status=0 QTime=1
+2017-08-21 12:07:55.906 INFO  (qtp581374081-15) [   x:rok-fahad] o.a.s.c.S.Request [rok-fahad]  webapp=/solr path=/admin/mbeans params={cat=QUERY&wt=json&_=1503317275887} status=0 QTime=0
+2017-08-21 12:07:55.906 INFO  (qtp581374081-20) [   x:rok-fahad] o.a.s.c.S.Request [rok-fahad]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=show-config&_=1503317275887} status=0 QTime=1
+2017-08-21 12:07:55.929 INFO  (qtp581374081-13) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1503317275795} status=0 QTime=21
+2017-08-21 12:07:56.030 INFO  (qtp581374081-18) [   x:rok-fahad] o.a.s.c.S.Request [rok-fahad]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1503317275887} status=0 QTime=0
+2017-08-21 12:07:59.032 INFO  (qtp581374081-16) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1503317278923} status=0 QTime=0
+2017-08-21 12:07:59.040 INFO  (qtp581374081-19) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1503317278923} status=0 QTime=5
+2017-08-21 12:07:59.041 INFO  (qtp581374081-14) [   x:rok-fahad] o.a.s.c.S.Request [rok-fahad]  webapp=/solr path=/admin/mbeans params={cat=QUERY&wt=json&_=1503317279022} status=0 QTime=0
+2017-08-21 12:07:59.043 INFO  (qtp581374081-20) [   x:rok-fahad] o.a.s.c.S.Request [rok-fahad]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=show-config&_=1503317279022} status=0 QTime=0
+2017-08-21 12:07:59.054 INFO  (qtp581374081-14) [   x:rok-fahad] o.a.s.c.S.Request [rok-fahad]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1503317279022} status=0 QTime=0
+2017-08-21 12:08:02.230 INFO  (ShutdownMonitor) [   ] o.a.s.c.CoreContainer Shutting down CoreContainer instance=1254344205
+2017-08-21 12:08:02.230 INFO  (ShutdownMonitor) [   ] o.a.s.m.SolrMetricManager Closing metric reporters for: solr.node
+2017-08-21 12:08:02.231 INFO  (ShutdownMonitor) [   ] o.a.s.m.SolrMetricManager Closing metric reporters for: solr.jvm
+2017-08-21 12:08:02.231 INFO  (ShutdownMonitor) [   ] o.a.s.m.SolrMetricManager Closing metric reporters for: solr.jetty
+2017-08-21 12:08:02.233 INFO  (coreCloseExecutor-17-thread-1) [   x:sirighor] o.a.s.c.SolrCore [sirighor]  CLOSING SolrCore org.apache.solr.core.SolrCore@5e1dc981
+2017-08-21 12:08:02.233 INFO  (coreCloseExecutor-17-thread-2) [   x:rok-fahad] o.a.s.c.SolrCore [rok-fahad]  CLOSING SolrCore org.apache.solr.core.SolrCore@6951470e
+2017-08-21 12:08:02.241 INFO  (coreCloseExecutor-17-thread-2) [   x:rok-fahad] o.a.s.m.SolrMetricManager Closing metric reporters for: solr.core.rok-fahad
+2017-08-21 12:08:02.242 INFO  (coreCloseExecutor-17-thread-1) [   x:sirighor] o.a.s.m.SolrMetricManager Closing metric reporters for: solr.core.sirighor

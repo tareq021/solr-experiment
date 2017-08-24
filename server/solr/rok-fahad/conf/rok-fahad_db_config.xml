@@ -1,0 +1,11 @@
+<!-- Things to search : book name, publisher, author, category -->
+<dataConfig>
+  <dataSource type="JdbcDataSource" driver="com.mysql.jdbc.Driver" url="jdbc:mysql://192.168.10.66/rokomari" user="tareq" password="R7q22@x*"/>
+  <document>
+    <entity name="product" query="select * from product">
+    <entity name="company" 
+    query="select nm as pub_engname, nm_Bn as pub_bangname from company where id='${product.company_id}'"
+    parentDeltaQuery="select id from book where publisher_id='${publisher.id}'"></entity>
+  </entity>
+  </document>
+</dataConfig>

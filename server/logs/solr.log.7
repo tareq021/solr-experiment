@@ -1,0 +1,257 @@
+2017-08-21 12:16:50.411 INFO  (main) [   ] o.e.j.s.Server jetty-9.3.14.v20161028
+2017-08-21 12:16:50.638 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter  ___      _       Welcome to Apache Solr™ version 6.6.0
+2017-08-21 12:16:50.638 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter / __| ___| |_ _   Starting in standalone mode on port 8983
+2017-08-21 12:16:50.638 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter \__ \/ _ \ | '_|  Install dir: /home/tareq/rokomari-solr
+2017-08-21 12:16:50.649 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter |___/\___/_|_|    Start time: 2017-08-21T12:16:50.639Z
+2017-08-21 12:16:50.649 INFO  (main) [   ] o.a.s.s.StartupLoggingUtils Property solr.log.muteconsole given. Muting ConsoleAppender named CONSOLE
+2017-08-21 12:16:50.659 INFO  (main) [   ] o.a.s.c.SolrResourceLoader Using system property solr.solr.home: /home/tareq/rokomari-solr/server/solr
+2017-08-21 12:16:50.662 INFO  (main) [   ] o.a.s.c.SolrXmlConfig Loading container configuration from /home/tareq/rokomari-solr/server/solr/solr.xml
+2017-08-21 12:16:50.886 INFO  (main) [   ] o.a.s.u.UpdateShardHandler Creating UpdateShardHandler HTTP client with params: socketTimeout=600000&connTimeout=60000&retry=true
+2017-08-21 12:16:51.016 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Found 2 core definitions underneath /home/tareq/rokomari-solr/server/solr
+2017-08-21 12:16:51.017 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Cores are: [sirighor, rok-fahad]
+2017-08-21 12:16:51.073 WARN  (coreLoadExecutor-6-thread-2) [   x:rok-fahad] o.a.s.c.SolrConfig Couldn't add files from /home/tareq/rokomari-solr/server/solr/rok-fahad/../../../contrib/dataimporthandler/lib filtered by .*\.jar to classpath: /home/tareq/rokomari-solr/server/solr/rok-fahad/../../../contrib/dataimporthandler/lib
+2017-08-21 12:16:51.074 WARN  (coreLoadExecutor-6-thread-1) [   x:sirighor] o.a.s.c.SolrConfig Couldn't add files from /home/tareq/rokomari-solr/server/solr/sirighor/../../../contrib/dataimporthandler/lib filtered by .*\.jar to classpath: /home/tareq/rokomari-solr/server/solr/sirighor/../../../contrib/dataimporthandler/lib
+2017-08-21 12:16:51.077 INFO  (coreLoadExecutor-6-thread-1) [   x:sirighor] o.a.s.c.SolrResourceLoader [sirighor] Added 52 libs to classloader, from paths: [/home/tareq/rokomari-solr/contrib/clustering/lib, /home/tareq/rokomari-solr/contrib/extraction/lib, /home/tareq/rokomari-solr/contrib/langid/lib, /home/tareq/rokomari-solr/contrib/velocity/lib, /home/tareq/rokomari-solr/dist]
+2017-08-21 12:16:51.080 INFO  (main) [   ] o.e.j.s.Server Started @1008ms
+2017-08-21 12:16:51.080 INFO  (coreLoadExecutor-6-thread-2) [   x:rok-fahad] o.a.s.c.SolrResourceLoader [rok-fahad] Added 52 libs to classloader, from paths: [/home/tareq/rokomari-solr/contrib/clustering/lib, /home/tareq/rokomari-solr/contrib/extraction/lib, /home/tareq/rokomari-solr/contrib/langid/lib, /home/tareq/rokomari-solr/contrib/velocity/lib, /home/tareq/rokomari-solr/dist]
+2017-08-21 12:16:51.196 INFO  (coreLoadExecutor-6-thread-2) [   x:rok-fahad] o.a.s.c.SolrConfig Using Lucene MatchVersion: 6.6.0
+2017-08-21 12:16:51.202 INFO  (coreLoadExecutor-6-thread-1) [   x:sirighor] o.a.s.c.SolrConfig Using Lucene MatchVersion: 6.6.0
+2017-08-21 12:16:51.380 INFO  (coreLoadExecutor-6-thread-1) [   x:sirighor] o.a.s.s.IndexSchema [sirighor] Schema name=example-data-driven-schema
+2017-08-21 12:16:51.382 INFO  (coreLoadExecutor-6-thread-2) [   x:rok-fahad] o.a.s.s.IndexSchema [rok-fahad] Schema name=example-data-driven-schema
+2017-08-21 12:16:51.842 INFO  (coreLoadExecutor-6-thread-1) [   x:sirighor] o.a.s.s.IndexSchema Loaded schema example-data-driven-schema/1.6 with uniqueid field id
+2017-08-21 12:16:51.842 INFO  (coreLoadExecutor-6-thread-2) [   x:rok-fahad] o.a.s.s.IndexSchema Loaded schema example-data-driven-schema/1.6 with uniqueid field id
+2017-08-21 12:16:51.873 INFO  (coreLoadExecutor-6-thread-1) [   x:sirighor] o.a.s.c.CoreContainer Creating SolrCore 'sirighor' using configuration from instancedir /home/tareq/rokomari-solr/server/solr/sirighor, trusted=true
+2017-08-21 12:16:51.874 INFO  (coreLoadExecutor-6-thread-2) [   x:rok-fahad] o.a.s.c.CoreContainer Creating SolrCore 'rok-fahad' using configuration from instancedir /home/tareq/rokomari-solr/server/solr/rok-fahad, trusted=true
+2017-08-21 12:16:51.898 INFO  (coreLoadExecutor-6-thread-2) [   x:rok-fahad] o.a.s.c.SolrCore solr.RecoveryStrategy.Builder
+2017-08-21 12:16:51.898 INFO  (coreLoadExecutor-6-thread-1) [   x:sirighor] o.a.s.c.SolrCore solr.RecoveryStrategy.Builder
+2017-08-21 12:16:51.902 INFO  (coreLoadExecutor-6-thread-1) [   x:sirighor] o.a.s.c.SolrCore [[sirighor] ] Opening new SolrCore at [/home/tareq/rokomari-solr/server/solr/sirighor], dataDir=[/home/tareq/rokomari-solr/server/solr/sirighor/data/]
+2017-08-21 12:16:51.902 INFO  (coreLoadExecutor-6-thread-2) [   x:rok-fahad] o.a.s.c.SolrCore [[rok-fahad] ] Opening new SolrCore at [/home/tareq/rokomari-solr/server/solr/rok-fahad], dataDir=[/home/tareq/rokomari-solr/server/solr/rok-fahad/data/]
+2017-08-21 12:16:51.937 INFO  (coreLoadExecutor-6-thread-1) [   x:sirighor] o.a.s.r.XSLTResponseWriter xsltCacheLifetimeSeconds=5
+2017-08-21 12:16:51.937 INFO  (coreLoadExecutor-6-thread-2) [   x:rok-fahad] o.a.s.r.XSLTResponseWriter xsltCacheLifetimeSeconds=5
+2017-08-21 12:16:52.217 INFO  (coreLoadExecutor-6-thread-2) [   x:rok-fahad] o.a.s.u.UpdateHandler Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+2017-08-21 12:16:52.217 INFO  (coreLoadExecutor-6-thread-2) [   x:rok-fahad] o.a.s.u.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+2017-08-21 12:16:52.220 INFO  (coreLoadExecutor-6-thread-1) [   x:sirighor] o.a.s.u.UpdateHandler Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+2017-08-21 12:16:52.220 INFO  (coreLoadExecutor-6-thread-1) [   x:sirighor] o.a.s.u.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+2017-08-21 12:16:52.240 INFO  (coreLoadExecutor-6-thread-2) [   x:rok-fahad] o.a.s.u.CommitTracker Hard AutoCommit: if uncommited for 15000ms; 
+2017-08-21 12:16:52.240 INFO  (coreLoadExecutor-6-thread-2) [   x:rok-fahad] o.a.s.u.CommitTracker Soft AutoCommit: disabled
+2017-08-21 12:16:52.241 INFO  (coreLoadExecutor-6-thread-1) [   x:sirighor] o.a.s.u.CommitTracker Hard AutoCommit: if uncommited for 15000ms; 
+2017-08-21 12:16:52.241 INFO  (coreLoadExecutor-6-thread-1) [   x:sirighor] o.a.s.u.CommitTracker Soft AutoCommit: disabled
+2017-08-21 12:16:52.302 INFO  (coreLoadExecutor-6-thread-1) [   x:sirighor] o.a.s.s.SolrIndexSearcher Opening [Searcher@dd739b1[sirighor] main]
+2017-08-21 12:16:52.302 INFO  (coreLoadExecutor-6-thread-2) [   x:rok-fahad] o.a.s.s.SolrIndexSearcher Opening [Searcher@3dd6f5ed[rok-fahad] main]
+2017-08-21 12:16:52.309 INFO  (coreLoadExecutor-6-thread-2) [   x:rok-fahad] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: /home/tareq/rokomari-solr/server/solr/rok-fahad/conf
+2017-08-21 12:16:52.309 INFO  (coreLoadExecutor-6-thread-1) [   x:sirighor] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: /home/tareq/rokomari-solr/server/solr/sirighor/conf
+2017-08-21 12:16:52.320 INFO  (coreLoadExecutor-6-thread-1) [   x:sirighor] o.a.s.h.c.SpellCheckComponent Initializing spell checkers
+2017-08-21 12:16:52.320 INFO  (coreLoadExecutor-6-thread-2) [   x:rok-fahad] o.a.s.h.c.SpellCheckComponent Initializing spell checkers
+2017-08-21 12:16:52.325 INFO  (coreLoadExecutor-6-thread-2) [   x:rok-fahad] o.a.s.s.DirectSolrSpellChecker init: {name=default,field=_text_,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+2017-08-21 12:16:52.325 INFO  (coreLoadExecutor-6-thread-1) [   x:sirighor] o.a.s.s.DirectSolrSpellChecker init: {name=default,field=_text_,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+2017-08-21 12:16:52.328 INFO  (coreLoadExecutor-6-thread-1) [   x:sirighor] o.a.s.h.c.QueryElevationComponent Loading QueryElevation from: /home/tareq/rokomari-solr/server/solr/sirighor/conf/elevate.xml
+2017-08-21 12:16:52.329 INFO  (coreLoadExecutor-6-thread-2) [   x:rok-fahad] o.a.s.h.c.QueryElevationComponent Loading QueryElevation from: /home/tareq/rokomari-solr/server/solr/rok-fahad/conf/elevate.xml
+2017-08-21 12:16:52.336 INFO  (coreLoadExecutor-6-thread-1) [   x:sirighor] o.a.s.h.ReplicationHandler Commits will be reserved for  10000
+2017-08-21 12:16:52.339 INFO  (coreLoadExecutor-6-thread-2) [   x:rok-fahad] o.a.s.h.ReplicationHandler Commits will be reserved for  10000
+2017-08-21 12:16:52.416 INFO  (searcherExecutor-8-thread-1-processing-x:sirighor) [   x:sirighor] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@dd739b1[sirighor] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_3k(6.6.0):C23)))}
+2017-08-21 12:16:52.416 INFO  (searcherExecutor-8-thread-1-processing-x:sirighor) [   x:sirighor] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2017-08-21 12:16:52.416 INFO  (searcherExecutor-8-thread-1-processing-x:sirighor) [   x:sirighor] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: default
+2017-08-21 12:16:52.417 INFO  (searcherExecutor-8-thread-1-processing-x:sirighor) [   x:sirighor] o.a.s.c.SolrCore [sirighor] Registered new searcher Searcher@dd739b1[sirighor] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_3k(6.6.0):C23)))}
+2017-08-21 12:16:52.417 INFO  (searcherExecutor-7-thread-1-processing-x:rok-fahad) [   x:rok-fahad] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@3dd6f5ed[rok-fahad] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_f(6.6.0):C104627) Uninverting(_g(6.6.0):C10460) Uninverting(_h(6.6.0):C28694)))}
+2017-08-21 12:16:52.417 INFO  (searcherExecutor-7-thread-1-processing-x:rok-fahad) [   x:rok-fahad] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2017-08-21 12:16:52.417 INFO  (searcherExecutor-7-thread-1-processing-x:rok-fahad) [   x:rok-fahad] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: default
+2017-08-21 12:16:52.417 INFO  (searcherExecutor-7-thread-1-processing-x:rok-fahad) [   x:rok-fahad] o.a.s.c.SolrCore [rok-fahad] Registered new searcher Searcher@3dd6f5ed[rok-fahad] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_f(6.6.0):C104627) Uninverting(_g(6.6.0):C10460) Uninverting(_h(6.6.0):C28694)))}
+2017-08-21 12:16:52.471 INFO  (qtp581374081-17) [   x:rok-fahad] o.a.s.c.S.Request [rok-fahad]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1503317294113} status=0 QTime=5
+2017-08-21 12:16:54.392 INFO  (qtp581374081-16) [   x:rok-fahad] o.a.s.c.S.Request [rok-fahad]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1503317294113} status=0 QTime=0
+2017-08-21 12:16:56.392 INFO  (qtp581374081-15) [   x:rok-fahad] o.a.s.c.S.Request [rok-fahad]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1503317294113} status=0 QTime=0
+2017-08-21 12:16:58.392 INFO  (qtp581374081-15) [   x:rok-fahad] o.a.s.c.S.Request [rok-fahad]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1503317294113} status=0 QTime=0
+2017-08-21 12:17:00.391 INFO  (qtp581374081-15) [   x:rok-fahad] o.a.s.c.S.Request [rok-fahad]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1503317294113} status=0 QTime=0
+2017-08-21 12:17:02.066 INFO  (qtp581374081-14) [   x:rok-fahad] o.a.s.c.S.Request [rok-fahad]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1503317294113} status=0 QTime=0
+2017-08-21 12:17:02.745 INFO  (qtp581374081-17) [   ] o.a.s.c.TransientSolrCoreCacheDefault Allocating transient cache for 2147483647 transient cores
+2017-08-21 12:17:03.008 INFO  (qtp581374081-18) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1503317822906} status=0 QTime=1
+2017-08-21 12:17:03.023 INFO  (qtp581374081-12) [   x:rok-fahad] o.a.s.c.S.Request [rok-fahad]  webapp=/solr path=/admin/mbeans params={cat=QUERY&wt=json&_=1503317822994} status=0 QTime=0
+2017-08-21 12:17:03.026 INFO  (qtp581374081-18) [   x:rok-fahad] o.a.s.c.S.Request [rok-fahad]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=show-config&_=1503317822994} status=0 QTime=4
+2017-08-21 12:17:03.029 INFO  (qtp581374081-13) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1503317822906} status=0 QTime=19
+2017-08-21 12:17:03.125 INFO  (qtp581374081-20) [   x:rok-fahad] o.a.s.c.S.Request [rok-fahad]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1503317822994} status=0 QTime=0
+2017-08-21 12:17:05.009 INFO  (qtp581374081-16) [   x:rok-fahad] o.a.s.c.S.Request [rok-fahad]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1503317822994} status=0 QTime=0
+2017-08-21 12:17:07.011 INFO  (qtp581374081-16) [   x:rok-fahad] o.a.s.c.S.Request [rok-fahad]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1503317822994} status=0 QTime=0
+2017-08-21 12:17:08.241 INFO  (qtp581374081-17) [   x:rok-fahad] o.a.s.h.d.DataImporter Loading DIH Configuration: rok-fahad_db_config.xml
+2017-08-21 12:17:08.244 INFO  (qtp581374081-17) [   x:rok-fahad] o.a.s.h.d.c.DIHConfiguration id is a required field in SolrSchema . But not found in DataConfig
+2017-08-21 12:17:08.244 INFO  (qtp581374081-17) [   x:rok-fahad] o.a.s.h.d.DataImporter Data Configuration loaded successfully
+2017-08-21 12:17:08.250 INFO  (qtp581374081-17) [   x:rok-fahad] o.a.s.c.S.Request [rok-fahad]  webapp=/solr path=/dataimport params={core=rok-fahad&optimize=false&indent=on&commit=true&name=dataimport&clean=true&wt=json&command=full-import&entity=product&_=1503317822994&verbose=false} status=0 QTime=10
+2017-08-21 12:17:08.251 INFO  (Thread-14) [   x:rok-fahad] o.a.s.h.d.DataImporter Starting Full Import
+2017-08-21 12:17:08.254 INFO  (qtp581374081-15) [   x:rok-fahad] o.a.s.c.S.Request [rok-fahad]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1503317822994} status=0 QTime=0
+2017-08-21 12:17:08.259 INFO  (Thread-14) [   x:rok-fahad] o.a.s.h.d.SimplePropertiesWriter Read dataimport.properties
+2017-08-21 12:17:08.326 INFO  (Thread-14) [   x:rok-fahad] o.a.s.s.SolrIndexSearcher Opening [Searcher@13d5f278[rok-fahad] realtime]
+2017-08-21 12:17:08.352 INFO  (Thread-14) [   x:rok-fahad] o.a.s.h.d.JdbcDataSource Creating a connection for entity product with URL: jdbc:mysql://192.168.10.88/rokomari
+2017-08-21 12:17:08.523 INFO  (Thread-14) [   x:rok-fahad] o.a.s.h.d.JdbcDataSource Time taken for getConnection(): 171
+2017-08-21 12:17:09.010 INFO  (qtp581374081-15) [   x:rok-fahad] o.a.s.c.S.Request [rok-fahad]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1503317822994} status=0 QTime=0
+2017-08-21 12:17:11.010 INFO  (qtp581374081-16) [   x:rok-fahad] o.a.s.c.S.Request [rok-fahad]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1503317822994} status=0 QTime=0
+2017-08-21 12:17:13.010 INFO  (qtp581374081-18) [   x:rok-fahad] o.a.s.c.S.Request [rok-fahad]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1503317822994} status=0 QTime=0
+2017-08-21 12:17:15.009 INFO  (qtp581374081-18) [   x:rok-fahad] o.a.s.c.S.Request [rok-fahad]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1503317822994} status=0 QTime=0
+2017-08-21 12:17:16.767 INFO  (Thread-14) [   x:rok-fahad] o.a.s.h.d.JdbcDataSource Creating a connection for entity company with URL: jdbc:mysql://192.168.10.88/rokomari
+2017-08-21 12:17:16.777 INFO  (Thread-14) [   x:rok-fahad] o.a.s.h.d.JdbcDataSource Time taken for getConnection(): 10
+2017-08-21 12:17:16.783 ERROR (Thread-14) [   x:rok-fahad] o.a.s.h.d.DocBuilder Exception while processing: product document : SolrInputDocument(fields: [nm_Bn=সুশাসনের সন্ধানে, id=1, prc=276, nm=Sushasoner Sondhane]):org.apache.solr.handler.dataimport.DataImportHandlerException: Unable to execute query: select nm as pub_engname, nmBn as pub_bangname from company where id='1' Processing Document # 1
+	at org.apache.solr.handler.dataimport.DataImportHandlerException.wrapAndThrow(DataImportHandlerException.java:69)
+	at org.apache.solr.handler.dataimport.JdbcDataSource$ResultSetIterator.<init>(JdbcDataSource.java:327)
+	at org.apache.solr.handler.dataimport.JdbcDataSource.createResultSetIterator(JdbcDataSource.java:288)
+	at org.apache.solr.handler.dataimport.JdbcDataSource.getData(JdbcDataSource.java:283)
+	at org.apache.solr.handler.dataimport.JdbcDataSource.getData(JdbcDataSource.java:52)
+	at org.apache.solr.handler.dataimport.SqlEntityProcessor.initQuery(SqlEntityProcessor.java:59)
+	at org.apache.solr.handler.dataimport.SqlEntityProcessor.nextRow(SqlEntityProcessor.java:73)
+	at org.apache.solr.handler.dataimport.EntityProcessorWrapper.nextRow(EntityProcessorWrapper.java:267)
+	at org.apache.solr.handler.dataimport.DocBuilder.buildDocument(DocBuilder.java:475)
+	at org.apache.solr.handler.dataimport.DocBuilder.buildDocument(DocBuilder.java:516)
+	at org.apache.solr.handler.dataimport.DocBuilder.buildDocument(DocBuilder.java:414)
+	at org.apache.solr.handler.dataimport.DocBuilder.doFullDump(DocBuilder.java:329)
+	at org.apache.solr.handler.dataimport.DocBuilder.execute(DocBuilder.java:232)
+	at org.apache.solr.handler.dataimport.DataImporter.doFullImport(DataImporter.java:415)
+	at org.apache.solr.handler.dataimport.DataImporter.runCmd(DataImporter.java:474)
+	at org.apache.solr.handler.dataimport.DataImporter.lambda$runAsync$0(DataImporter.java:457)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'nmBn' in 'field list'
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.Util.getInstance(Util.java:408)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:943)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3973)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3909)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2527)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2680)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2490)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2448)
+	at com.mysql.jdbc.StatementImpl.executeInternal(StatementImpl.java:845)
+	at com.mysql.jdbc.StatementImpl.execute(StatementImpl.java:745)
+	at org.apache.solr.handler.dataimport.JdbcDataSource$ResultSetIterator.executeStatement(JdbcDataSource.java:349)
+	at org.apache.solr.handler.dataimport.JdbcDataSource$ResultSetIterator.<init>(JdbcDataSource.java:321)
+	... 15 more
+
+2017-08-21 12:17:16.783 INFO  (Thread-14) [   x:rok-fahad] o.a.s.u.p.LogUpdateProcessorFactory [rok-fahad]  webapp=/solr path=/dataimport params={core=rok-fahad&optimize=false&indent=on&commit=true&name=dataimport&clean=true&wt=json&command=full-import&entity=product&_=1503317822994&verbose=false} status=0 QTime=10{deleteByQuery=*:* (-1576342995103383552)} 0 8543
+2017-08-21 12:17:16.786 ERROR (Thread-14) [   x:rok-fahad] o.a.s.h.d.DataImporter Full Import failed:java.lang.RuntimeException: java.lang.RuntimeException: org.apache.solr.handler.dataimport.DataImportHandlerException: Unable to execute query: select nm as pub_engname, nmBn as pub_bangname from company where id='1' Processing Document # 1
+	at org.apache.solr.handler.dataimport.DocBuilder.execute(DocBuilder.java:270)
+	at org.apache.solr.handler.dataimport.DataImporter.doFullImport(DataImporter.java:415)
+	at org.apache.solr.handler.dataimport.DataImporter.runCmd(DataImporter.java:474)
+	at org.apache.solr.handler.dataimport.DataImporter.lambda$runAsync$0(DataImporter.java:457)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.RuntimeException: org.apache.solr.handler.dataimport.DataImportHandlerException: Unable to execute query: select nm as pub_engname, nmBn as pub_bangname from company where id='1' Processing Document # 1
+	at org.apache.solr.handler.dataimport.DocBuilder.buildDocument(DocBuilder.java:416)
+	at org.apache.solr.handler.dataimport.DocBuilder.doFullDump(DocBuilder.java:329)
+	at org.apache.solr.handler.dataimport.DocBuilder.execute(DocBuilder.java:232)
+	... 4 more
+Caused by: org.apache.solr.handler.dataimport.DataImportHandlerException: Unable to execute query: select nm as pub_engname, nmBn as pub_bangname from company where id='1' Processing Document # 1
+	at org.apache.solr.handler.dataimport.DataImportHandlerException.wrapAndThrow(DataImportHandlerException.java:69)
+	at org.apache.solr.handler.dataimport.JdbcDataSource$ResultSetIterator.<init>(JdbcDataSource.java:327)
+	at org.apache.solr.handler.dataimport.JdbcDataSource.createResultSetIterator(JdbcDataSource.java:288)
+	at org.apache.solr.handler.dataimport.JdbcDataSource.getData(JdbcDataSource.java:283)
+	at org.apache.solr.handler.dataimport.JdbcDataSource.getData(JdbcDataSource.java:52)
+	at org.apache.solr.handler.dataimport.SqlEntityProcessor.initQuery(SqlEntityProcessor.java:59)
+	at org.apache.solr.handler.dataimport.SqlEntityProcessor.nextRow(SqlEntityProcessor.java:73)
+	at org.apache.solr.handler.dataimport.EntityProcessorWrapper.nextRow(EntityProcessorWrapper.java:267)
+	at org.apache.solr.handler.dataimport.DocBuilder.buildDocument(DocBuilder.java:475)
+	at org.apache.solr.handler.dataimport.DocBuilder.buildDocument(DocBuilder.java:516)
+	at org.apache.solr.handler.dataimport.DocBuilder.buildDocument(DocBuilder.java:414)
+	... 6 more
+Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'nmBn' in 'field list'
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.Util.getInstance(Util.java:408)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:943)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3973)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3909)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2527)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2680)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2490)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2448)
+	at com.mysql.jdbc.StatementImpl.executeInternal(StatementImpl.java:845)
+	at com.mysql.jdbc.StatementImpl.execute(StatementImpl.java:745)
+	at org.apache.solr.handler.dataimport.JdbcDataSource$ResultSetIterator.executeStatement(JdbcDataSource.java:349)
+	at org.apache.solr.handler.dataimport.JdbcDataSource$ResultSetIterator.<init>(JdbcDataSource.java:321)
+	... 15 more
+
+2017-08-21 12:17:16.787 INFO  (Thread-14) [   x:rok-fahad] o.a.s.u.DirectUpdateHandler2 start rollback{}
+2017-08-21 12:17:16.789 INFO  (Thread-14) [   x:rok-fahad] o.a.s.u.DefaultSolrCoreState New IndexWriter is ready to be used.
+2017-08-21 12:17:16.790 INFO  (Thread-14) [   x:rok-fahad] o.a.s.u.DirectUpdateHandler2 end_rollback
+2017-08-21 12:17:17.009 INFO  (qtp581374081-16) [   x:rok-fahad] o.a.s.c.S.Request [rok-fahad]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1503317822994} status=0 QTime=0
+2017-08-21 12:17:19.010 INFO  (qtp581374081-12) [   x:rok-fahad] o.a.s.c.S.Request [rok-fahad]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1503317822994} status=0 QTime=0
+2017-08-21 12:17:21.009 INFO  (qtp581374081-12) [   x:rok-fahad] o.a.s.c.S.Request [rok-fahad]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1503317822994} status=0 QTime=0
+2017-08-21 12:17:22.121 INFO  (qtp581374081-16) [   x:rok-fahad] o.a.s.c.S.Request [rok-fahad]  webapp=/solr path=/select params={q=adarsha&indent=on&wt=json&_=1503317341870} hits=25 status=0 QTime=17
+2017-08-21 12:17:23.009 INFO  (qtp581374081-13) [   x:rok-fahad] o.a.s.c.S.Request [rok-fahad]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1503317822994} status=0 QTime=0
+2017-08-21 12:17:23.472 INFO  (qtp581374081-20) [   x:rok-fahad] o.a.s.c.S.Request [rok-fahad]  webapp=/solr path=/select params={q=adarsha&indent=on&wt=json&_=1503317341870} hits=25 status=0 QTime=0
+2017-08-21 12:17:25.011 INFO  (qtp581374081-15) [   x:rok-fahad] o.a.s.c.S.Request [rok-fahad]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1503317822994} status=0 QTime=0
+2017-08-21 12:17:25.538 INFO  (qtp581374081-18) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1503317845405} status=0 QTime=0
+2017-08-21 12:17:25.545 INFO  (qtp581374081-14) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1503317845406} status=0 QTime=5
+2017-08-21 12:17:27.010 INFO  (qtp581374081-13) [   x:rok-fahad] o.a.s.c.S.Request [rok-fahad]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1503317822994} status=0 QTime=0
+2017-08-21 12:17:27.832 INFO  (qtp581374081-17) [   x:rok-fahad] o.a.s.c.S.Request [rok-fahad]  webapp=/solr path=/select params={q=*:*&indent=on&wt=json&_=1503317845510} hits=143781 status=0 QTime=5
+2017-08-21 12:17:29.011 INFO  (qtp581374081-21) [   x:rok-fahad] o.a.s.c.S.Request [rok-fahad]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1503317822994} status=0 QTime=0
+2017-08-21 12:17:31.391 INFO  (qtp581374081-15) [   x:rok-fahad] o.a.s.c.S.Request [rok-fahad]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1503317822994} status=0 QTime=0
+2017-08-21 12:17:33.391 INFO  (qtp581374081-13) [   x:rok-fahad] o.a.s.c.S.Request [rok-fahad]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1503317822994} status=0 QTime=0
+2017-08-21 12:17:35.391 INFO  (qtp581374081-20) [   x:rok-fahad] o.a.s.c.S.Request [rok-fahad]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1503317822994} status=0 QTime=0
+2017-08-21 12:17:37.391 INFO  (qtp581374081-18) [   x:rok-fahad] o.a.s.c.S.Request [rok-fahad]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1503317822994} status=0 QTime=0
+2017-08-21 12:17:39.392 INFO  (qtp581374081-18) [   x:rok-fahad] o.a.s.c.S.Request [rok-fahad]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1503317822994} status=0 QTime=0
+2017-08-21 12:17:41.392 INFO  (qtp581374081-12) [   x:rok-fahad] o.a.s.c.S.Request [rok-fahad]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1503317822994} status=0 QTime=0
+2017-08-21 12:17:43.391 INFO  (qtp581374081-15) [   x:rok-fahad] o.a.s.c.S.Request [rok-fahad]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1503317822994} status=0 QTime=0
+2017-08-21 12:17:45.391 INFO  (qtp581374081-13) [   x:rok-fahad] o.a.s.c.S.Request [rok-fahad]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1503317822994} status=0 QTime=0
+2017-08-21 12:17:47.391 INFO  (qtp581374081-20) [   x:rok-fahad] o.a.s.c.S.Request [rok-fahad]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1503317822994} status=0 QTime=0
+2017-08-21 12:17:49.392 INFO  (qtp581374081-17) [   x:rok-fahad] o.a.s.c.S.Request [rok-fahad]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1503317822994} status=0 QTime=0
+2017-08-21 12:17:51.393 INFO  (qtp581374081-18) [   x:rok-fahad] o.a.s.c.S.Request [rok-fahad]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1503317822994} status=0 QTime=0
+2017-08-21 12:17:53.392 INFO  (qtp581374081-12) [   x:rok-fahad] o.a.s.c.S.Request [rok-fahad]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1503317822994} status=0 QTime=0
+2017-08-21 12:17:55.393 INFO  (qtp581374081-17) [   x:rok-fahad] o.a.s.c.S.Request [rok-fahad]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1503317822994} status=0 QTime=0
+2017-08-21 12:17:57.392 INFO  (qtp581374081-14) [   x:rok-fahad] o.a.s.c.S.Request [rok-fahad]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1503317822994} status=0 QTime=0
+2017-08-21 12:17:59.391 INFO  (qtp581374081-20) [   x:rok-fahad] o.a.s.c.S.Request [rok-fahad]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1503317822994} status=0 QTime=0
+2017-08-21 12:18:01.391 INFO  (qtp581374081-13) [   x:rok-fahad] o.a.s.c.S.Request [rok-fahad]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1503317822994} status=0 QTime=0
+2017-08-21 12:18:03.392 INFO  (qtp581374081-18) [   x:rok-fahad] o.a.s.c.S.Request [rok-fahad]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1503317822994} status=0 QTime=0
+2017-08-21 12:18:05.392 INFO  (qtp581374081-12) [   x:rok-fahad] o.a.s.c.S.Request [rok-fahad]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1503317822994} status=0 QTime=0
+2017-08-21 12:18:07.392 INFO  (qtp581374081-12) [   x:rok-fahad] o.a.s.c.S.Request [rok-fahad]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1503317822994} status=0 QTime=0
+2017-08-21 12:18:09.392 INFO  (qtp581374081-14) [   x:rok-fahad] o.a.s.c.S.Request [rok-fahad]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1503317822994} status=0 QTime=0
+2017-08-21 12:18:11.391 INFO  (qtp581374081-14) [   x:rok-fahad] o.a.s.c.S.Request [rok-fahad]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1503317822994} status=0 QTime=0
+2017-08-21 12:18:13.391 INFO  (qtp581374081-13) [   x:rok-fahad] o.a.s.c.S.Request [rok-fahad]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1503317822994} status=0 QTime=0
+2017-08-21 12:18:15.398 INFO  (qtp581374081-13) [   x:rok-fahad] o.a.s.c.S.Request [rok-fahad]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1503317822994} status=0 QTime=0
+2017-08-21 12:18:17.391 INFO  (qtp581374081-13) [   x:rok-fahad] o.a.s.c.S.Request [rok-fahad]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1503317822994} status=0 QTime=0
+2017-08-21 12:18:19.395 INFO  (qtp581374081-13) [   x:rok-fahad] o.a.s.c.S.Request [rok-fahad]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1503317822994} status=0 QTime=0
+2017-08-21 12:18:21.391 INFO  (qtp581374081-13) [   x:rok-fahad] o.a.s.c.S.Request [rok-fahad]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1503317822994} status=0 QTime=0
+2017-08-21 12:18:23.392 INFO  (qtp581374081-12) [   x:rok-fahad] o.a.s.c.S.Request [rok-fahad]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1503317822994} status=0 QTime=0
+2017-08-21 12:18:25.391 INFO  (qtp581374081-21) [   x:rok-fahad] o.a.s.c.S.Request [rok-fahad]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1503317822994} status=0 QTime=0
+2017-08-21 12:18:27.397 INFO  (qtp581374081-21) [   x:rok-fahad] o.a.s.c.S.Request [rok-fahad]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1503317822994} status=0 QTime=0
+2017-08-21 12:18:29.391 INFO  (qtp581374081-12) [   x:rok-fahad] o.a.s.c.S.Request [rok-fahad]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1503317822994} status=0 QTime=0
+2017-08-21 12:18:31.391 INFO  (qtp581374081-20) [   x:rok-fahad] o.a.s.c.S.Request [rok-fahad]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1503317822994} status=0 QTime=0
+2017-08-21 12:18:33.392 INFO  (qtp581374081-20) [   x:rok-fahad] o.a.s.c.S.Request [rok-fahad]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1503317822994} status=0 QTime=0
+2017-08-21 12:18:35.390 INFO  (qtp581374081-20) [   x:rok-fahad] o.a.s.c.S.Request [rok-fahad]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1503317822994} status=0 QTime=0
+2017-08-21 12:18:37.392 INFO  (qtp581374081-14) [   x:rok-fahad] o.a.s.c.S.Request [rok-fahad]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1503317822994} status=0 QTime=0
+2017-08-21 12:18:39.391 INFO  (qtp581374081-16) [   x:rok-fahad] o.a.s.c.S.Request [rok-fahad]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1503317822994} status=0 QTime=0
+2017-08-21 12:18:41.391 INFO  (qtp581374081-16) [   x:rok-fahad] o.a.s.c.S.Request [rok-fahad]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1503317822994} status=0 QTime=0
+2017-08-21 12:18:43.391 INFO  (qtp581374081-13) [   x:rok-fahad] o.a.s.c.S.Request [rok-fahad]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1503317822994} status=0 QTime=0
+2017-08-21 12:18:45.391 INFO  (qtp581374081-18) [   x:rok-fahad] o.a.s.c.S.Request [rok-fahad]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1503317822994} status=0 QTime=0
+2017-08-21 12:18:47.391 INFO  (qtp581374081-20) [   x:rok-fahad] o.a.s.c.S.Request [rok-fahad]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1503317822994} status=0 QTime=0
+2017-08-21 12:18:49.392 INFO  (qtp581374081-14) [   x:rok-fahad] o.a.s.c.S.Request [rok-fahad]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1503317822994} status=0 QTime=0
+2017-08-21 12:18:51.391 INFO  (qtp581374081-14) [   x:rok-fahad] o.a.s.c.S.Request [rok-fahad]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1503317822994} status=0 QTime=0
+2017-08-21 12:18:53.391 INFO  (qtp581374081-16) [   x:rok-fahad] o.a.s.c.S.Request [rok-fahad]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1503317822994} status=0 QTime=0
+2017-08-21 12:18:55.390 INFO  (qtp581374081-16) [   x:rok-fahad] o.a.s.c.S.Request [rok-fahad]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1503317822994} status=0 QTime=0
+2017-08-21 12:18:57.395 INFO  (qtp581374081-18) [   x:rok-fahad] o.a.s.c.S.Request [rok-fahad]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1503317822994} status=0 QTime=0
+2017-08-21 12:18:59.391 INFO  (qtp581374081-21) [   x:rok-fahad] o.a.s.c.S.Request [rok-fahad]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1503317822994} status=0 QTime=0
+2017-08-21 12:19:01.390 INFO  (qtp581374081-12) [   x:rok-fahad] o.a.s.c.S.Request [rok-fahad]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1503317822994} status=0 QTime=0
+2017-08-21 12:19:03.391 INFO  (qtp581374081-12) [   x:rok-fahad] o.a.s.c.S.Request [rok-fahad]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1503317822994} status=0 QTime=0
+2017-08-21 12:19:05.391 INFO  (qtp581374081-13) [   x:rok-fahad] o.a.s.c.S.Request [rok-fahad]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1503317822994} status=0 QTime=0
+2017-08-21 12:19:07.392 INFO  (qtp581374081-16) [   x:rok-fahad] o.a.s.c.S.Request [rok-fahad]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1503317822994} status=0 QTime=0
+2017-08-21 12:19:09.390 INFO  (qtp581374081-20) [   x:rok-fahad] o.a.s.c.S.Request [rok-fahad]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1503317822994} status=0 QTime=0
+2017-08-21 12:19:11.391 INFO  (qtp581374081-21) [   x:rok-fahad] o.a.s.c.S.Request [rok-fahad]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1503317822994} status=0 QTime=0
+2017-08-21 12:19:13.391 INFO  (qtp581374081-14) [   x:rok-fahad] o.a.s.c.S.Request [rok-fahad]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1503317822994} status=0 QTime=0
+2017-08-21 12:19:15.390 INFO  (qtp581374081-12) [   x:rok-fahad] o.a.s.c.S.Request [rok-fahad]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1503317822994} status=0 QTime=0
+2017-08-21 12:19:17.391 INFO  (qtp581374081-13) [   x:rok-fahad] o.a.s.c.S.Request [rok-fahad]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1503317822994} status=0 QTime=0
+2017-08-21 12:19:19.392 INFO  (qtp581374081-16) [   x:rok-fahad] o.a.s.c.S.Request [rok-fahad]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1503317822994} status=0 QTime=0
+2017-08-21 12:19:21.392 INFO  (qtp581374081-17) [   x:rok-fahad] o.a.s.c.S.Request [rok-fahad]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1503317822994} status=0 QTime=0
+2017-08-21 12:19:23.391 INFO  (qtp581374081-21) [   x:rok-fahad] o.a.s.c.S.Request [rok-fahad]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1503317822994} status=0 QTime=0
+2017-08-21 12:19:25.390 INFO  (qtp581374081-21) [   x:rok-fahad] o.a.s.c.S.Request [rok-fahad]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1503317822994} status=0 QTime=0
+2017-08-21 12:19:27.390 INFO  (qtp581374081-21) [   x:rok-fahad] o.a.s.c.S.Request [rok-fahad]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1503317822994} status=0 QTime=0
+2017-08-21 12:19:29.391 INFO  (qtp581374081-13) [   x:rok-fahad] o.a.s.c.S.Request [rok-fahad]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1503317822994} status=0 QTime=0
+2017-08-21 12:19:31.391 INFO  (qtp581374081-20) [   x:rok-fahad] o.a.s.c.S.Request [rok-fahad]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1503317822994} status=0 QTime=0
+2017-08-21 12:19:33.007 INFO  (ShutdownMonitor) [   ] o.a.s.c.CoreContainer Shutting down CoreContainer instance=1254344205
+2017-08-21 12:19:33.007 INFO  (ShutdownMonitor) [   ] o.a.s.m.SolrMetricManager Closing metric reporters for: solr.node
+2017-08-21 12:19:33.007 INFO  (ShutdownMonitor) [   ] o.a.s.m.SolrMetricManager Closing metric reporters for: solr.jvm
+2017-08-21 12:19:33.007 INFO  (ShutdownMonitor) [   ] o.a.s.m.SolrMetricManager Closing metric reporters for: solr.jetty
+2017-08-21 12:19:33.008 INFO  (coreCloseExecutor-17-thread-1) [   x:sirighor] o.a.s.c.SolrCore [sirighor]  CLOSING SolrCore org.apache.solr.core.SolrCore@24aa44aa
+2017-08-21 12:19:33.008 INFO  (coreCloseExecutor-17-thread-2) [   x:rok-fahad] o.a.s.c.SolrCore [rok-fahad]  CLOSING SolrCore org.apache.solr.core.SolrCore@2f020039
+2017-08-21 12:19:33.010 INFO  (coreCloseExecutor-17-thread-2) [   x:rok-fahad] o.a.s.u.DirectUpdateHandler2 Committing on IndexWriter close.
+2017-08-21 12:19:33.010 INFO  (coreCloseExecutor-17-thread-2) [   x:rok-fahad] o.a.s.u.SolrIndexWriter Calling setCommitData with IW:org.apache.solr.update.SolrIndexWriter@75c3a1af
+2017-08-21 12:19:33.013 INFO  (coreCloseExecutor-17-thread-1) [   x:sirighor] o.a.s.m.SolrMetricManager Closing metric reporters for: solr.core.sirighor
+2017-08-21 12:19:33.076 INFO  (coreCloseExecutor-17-thread-2) [   x:rok-fahad] o.a.s.m.SolrMetricManager Closing metric reporters for: solr.core.rok-fahad
