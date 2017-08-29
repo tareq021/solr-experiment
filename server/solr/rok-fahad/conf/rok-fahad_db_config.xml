@@ -1,6 +1,6 @@
 <!-- Things to search : book name, publisher, author, category -->
 <dataConfig>
-  <dataSource type="JdbcDataSource" driver="com.mysql.jdbc.Driver" url="jdbc:mysql://192.168.10.66/rokomari" user="tareq" password="R7q22@x*"/>
+  <dataSource type="JdbcDataSource" driver="com.mysql.jdbc.Driver" url="jdbc:mysql://192.168.10.88/rokomari" user="tareq" password="R7q22@x*"/>
   <document>
     <entity name="product" query="select * from product">
     <entity name="company" 

@@ -977,10 +977,13 @@
     <field name="prc" type="string" indexed="false" stored="false"/>
     <field name="pub_engname" type="string" indexed="true" stored="false"/>
     <field name="pub_bangname" type="string" indexed="true" stored="false"/>
-    
-    <!-- <field name="isbn" type="string" indexed="true" stored="false"/>
-    <field name="publisher_id" type="string" indexed="true" stored="false"/>
-    <field name="publisher_name" type="text_exact_fuzzy" indexed="true" stored="false"/>
-    <field name="publisher_phone" type="string" indexed="true" stored="false"/> -->
+
+<!-- Fields are not in model property -->
+
+<field name="full_text" type="string" indexed="true" stored="true" multiValued="true"/>
+
   </fields>
+<copyField source="nm" dest="full_text"/>
+<copyField source="nm_Bn" dest="full_text"/>
+<copyField source="pub_engname" dest="full_text"/>  
 </schema>
