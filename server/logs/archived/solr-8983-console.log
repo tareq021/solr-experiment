@@ -1,6 +1,6 @@
-2017-08-29 12:29:02.595 INFO  (main) [   ] o.e.j.s.Server jetty-9.3.14.v20161028
-2017-08-29 12:29:02.813 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter  ___      _       Welcome to Apache Solr™ version 6.6.0
-2017-08-29 12:29:02.813 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter / __| ___| |_ _   Starting in standalone mode on port 8983
-2017-08-29 12:29:02.813 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter \__ \/ _ \ | '_|  Install dir: /home/tareq/rokomari-solr
-2017-08-29 12:29:02.823 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter |___/\___/_|_|    Start time: 2017-08-29T12:29:02.814Z
-2017-08-29 12:29:02.824 INFO  (main) [   ] o.a.s.s.StartupLoggingUtils Property solr.log.muteconsole given. Muting ConsoleAppender named CONSOLE
+2017-09-07 16:08:19.847 INFO  (main) [   ] o.e.j.s.Server jetty-9.3.14.v20161028
+2017-09-07 16:08:20.106 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter  ___      _       Welcome to Apache Solr™ version 6.6.0
+2017-09-07 16:08:20.107 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter / __| ___| |_ _   Starting in standalone mode on port 8983
+2017-09-07 16:08:20.107 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter \__ \/ _ \ | '_|  Install dir: /home/tareq/rokomari-solr
+2017-09-07 16:08:20.118 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter |___/\___/_|_|    Start time: 2017-09-07T16:08:20.107Z
+2017-09-07 16:08:20.119 INFO  (main) [   ] o.a.s.s.StartupLoggingUtils Property solr.log.muteconsole given. Muting ConsoleAppender named CONSOLE
